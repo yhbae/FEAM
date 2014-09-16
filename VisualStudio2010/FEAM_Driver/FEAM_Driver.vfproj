@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{423ACEAA-0252-4CB2-97D5-DE4052A00114}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" StandardWarnings="standardWarningsF03" DisableSpecificDiagnostics="5268,5199" WarnInterfaces="true" RealKIND="realKIND8" LocalVariableStorage="localStorageSave" ByteRECL="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Preprocess="preprocessYes" StandardWarnings="standardWarningsF03" LocalVariableStorage="localStorageSave" ByteRECL="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" StandardWarnings="standardWarningsF03" DisableSpecificDiagnostics="5268,5199" WarnInterfaces="true" RealKIND="realKIND8" LocalVariableStorage="localStorageSave" ByteRECL="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Preprocess="preprocessYes" StandardWarnings="standardWarningsF03" LocalVariableStorage="localStorageSave" ByteRECL="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<Filter Name="NWTC_Library">
+		<File RelativePath=".\Source\nwtc_lib_rev_187\DoubPrec.f90"/>
+		<File RelativePath=".\Source\nwtc_lib_rev_187\ModMesh.f90"/>
+		<File RelativePath=".\Source\nwtc_lib_rev_187\ModMesh_Mapping.f90"/>
+		<File RelativePath=".\Source\nwtc_lib_rev_187\ModMesh_Types.f90"/>
+		<File RelativePath=".\Source\nwtc_lib_rev_187\NWTC_Base.f90"/>
+		<File RelativePath=".\Source\nwtc_lib_rev_187\NWTC_IO.f90"/>
+		<File RelativePath=".\Source\nwtc_lib_rev_187\NWTC_Library.f90"/>
+		<File RelativePath=".\Source\nwtc_lib_rev_187\NWTC_Library_Types.f90"/>
+		<File RelativePath=".\Source\nwtc_lib_rev_187\NWTC_Num.f90"/>
+		<File RelativePath=".\Source\nwtc_lib_rev_187\SysIVF.f90"/></Filter>
+		<File RelativePath=".\Source\FEAM.f90"/>
+		<File RelativePath=".\Source\FEAM_Driver.f90"/>
+		<File RelativePath=".\Source\nwtc_registry_rev_597\FEAMooring_Types.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>
